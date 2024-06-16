@@ -126,7 +126,7 @@ func (s *Server) handleConn(conn net.Conn) {
 	}
 }
 
-// LAST WATCHED VIDEO -> 2:52:50 | LIKE TO THE VIDEO ON THAT POINT -> https://youtu.be/LMrxfWB6sbQ?t=11389
+// LAST WATCHED VIDEO -> 3:54:05 | LIKE TO THE VIDEO ON THAT POINT -> https://youtu.be/LMrxfWB6sbQ?t=14045
 func main() {
 	listenAddr := flag.String("listenAddr", defaultListenAddr, "listen address of the goredis server")
 	flag.Parse()
